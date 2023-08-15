@@ -1,3 +1,4 @@
+const amqp = require('amqplib');
 const { getRabbitMQChannel, queueName } = require('./utils');
 
 // 定义要发送的消息
